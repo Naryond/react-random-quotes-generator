@@ -14,11 +14,10 @@ function App() {
   };
 
   // useEffect(() => {
-  //   if (wis === "*") {
-  //     console.log(wis);
+  //   if (state === "*") {
   //     fetching();
   //   }
-  // }, [wis]);
+  // }, [state]);
 
   return (
     <div>
