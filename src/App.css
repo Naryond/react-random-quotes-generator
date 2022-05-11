@@ -1,0 +1,32 @@
+body {
+  background-color:#ffc0cb;
+}
+.text {
+  margin:1rem;
+  color: #7A0014;
+}
+.subtext {
+  color: #7A0014;
+  font-family: cursive;
+  font-size: 28px;
+}
+.button {
+  background-color: #997379;
+  margin:2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #7A0014;
+}
+.box {
+  background: #cc99a2;
+  height: 300px;
+  width: 300px;
+  max-width: 60%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
