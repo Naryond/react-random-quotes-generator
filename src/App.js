@@ -12,7 +12,7 @@ function App() {
         setState(info.content);
       });
   };
-
+  // useEffect could have been used as well
   // useEffect(() => {
   //   if (state === "*") {
   //     fetching();
