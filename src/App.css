@@ -1,32 +1,70 @@
 body {
-  background-color:#ffc0cb;
+  background-color: #ffc0cb;
 }
+
 .text {
-  margin:1rem;
-  color: #7A0014;
+  margin: 1rem;
+  color: #7a0014;
 }
-.subtext {
-  color: #7A0014;
-  font-family: cursive;
-  font-size: 28px;
-}
+
 .button {
   background-color: #997379;
-  margin:2rem;
-  padding: 1rem;
+  margin: 1em;
+  padding: 0.5em;
   cursor: pointer;
   border-radius: 6px;
-  color: #7A0014;
+  color: #7a0014;
 }
+
+.subtext {
+  color: #7a0014;
+  font-family: cursive;
+  margin: 1em;
+}
+
 .box {
   background: #cc99a2;
-  height: 300px;
-  width: 300px;
-  max-width: 60%;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  padding: 5rem;
+  margin-left: 5em;
+  margin-right: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    font-size: 30px;
+  }
+
+  .subtext {
+    font-size: 28px;
+  }
+
+  .box {
+    margin-top: 10em;
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .text {
+    font-size: 50px;
+    padding: 0.5em;
+  }
+
+  .button {
+    padding: 1em;
+    font-size: 26px;
+  }
+
+  .subtext {
+    font-size: 50px;
+  }
+
+  .box {
+    margin-top: 10em;
+    width: 90%;
+    height: auto;
+  }
 }

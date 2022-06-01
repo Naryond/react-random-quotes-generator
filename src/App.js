@@ -30,7 +30,7 @@ function App() {
       </button>
 
       <div className="box">
-        <p className="output subtext">{state}</p>
+        <p className="subtext">{state}</p>
       </div>
     </div>
   );
