@@ -1,12 +1,12 @@
-import { useState } from "react";
+import { useState } from 'react';
 // import { useEffect } from "react";
-import "./App.css";
+import './App.css';
 
 function App() {
-  const [state, setState] = useState("*");
+  const [state, setState] = useState('*');
 
   const fetching = () => {
-    fetch("https://api.quotable.io/random")
+    fetch('https://api.quotable.io/random')
       .then((response) => response.json())
       .then((info) => {
         setState(info.content);
@@ -23,7 +23,7 @@ function App() {
     <div>
       <h1 className="text">Quote of the day</h1>
 
-      <p className="text">Click to get today's wisdom</p>
+      <p className="text">Click to get today&apos;s wisdom</p>
 
       <button className="button" onClick={fetching}>
         Get Wisdom
